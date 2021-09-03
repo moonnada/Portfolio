@@ -16,24 +16,22 @@ function App() {
   return (
     <Container>
       <Grid container>
-        <Grid item xs={12}lg={3} md={4} sm={12} style={{ backgroundColor: 'blue'}}>
+        <Grid item xs={12}lg={3} md={4} sm={12} >
           <Profile />
         </Grid>
         <Grid item xs style={{backgroundColor: 'red'}} >
           <Header />
+
           <Router>
-          <Switch>
+            <Switch>
+              <Route path='/portfolio'>
+                <Portfolio />
+              </Route>
 
-
-            <Route path='/portfolio'>
-              <Portfolio />
-            </Route>
-
-            <Route path='/resume'>
-              <Resume />
-
-            </Route>
-          </Switch>
+              <Route path='/resume'>
+                <Resume />
+              </Route>
+            </Switch>
           </Router>
           
           <Footer />

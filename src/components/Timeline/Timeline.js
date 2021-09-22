@@ -7,8 +7,6 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import './Timeline.css'
 import { Typography } from '@material-ui/core';
-// import WorkIcon from '@mmaterial-ui/icons/Work';
-import WorkspacesIcon from '@mui/icons-material/Workspaces';
 
 const CustomTimeline = ({title,icon, children}) => {
 
@@ -19,7 +17,7 @@ const CustomTimeline = ({title,icon, children}) => {
       <TimelineItem className={'timeline_firstItem'}>
         <TimelineSeparator>
           <TimelineDot className={'timeline_dot_header'}>
-          {<WorkspacesIcon />}
+          {icon}
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -29,13 +27,13 @@ const CustomTimeline = ({title,icon, children}) => {
       {children}
 
       {/* remaining items */}
-      <TimelineItem>
+      {/* <TimelineItem>
         <TimelineSeparator className={'separator_padding'}>
           <TimelineDot variant={'outlined'} className={'timeline_dot'}/>
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent>Code</TimelineContent>
-      </TimelineItem>
+        
+      </TimelineItem> */}
 
       
     </Timeline>

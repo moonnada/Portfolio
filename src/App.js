@@ -14,9 +14,9 @@ import './App.css';
 
 function App() {
   return (
-    <Container>
-      <Grid container>
-        <Grid item xs={12}lg={3} md={4} sm={12} >
+    <Container className={'top_60'}>
+      <Grid container spacing={5}>
+        <Grid item xs={12}lg={3} md={4} sm={12} className={`leftBar`}>
           <Profile />
         </Grid>
         <Grid item xs style={{backgroundColor: 'red'}} >

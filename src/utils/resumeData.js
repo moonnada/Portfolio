@@ -4,7 +4,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default {
     name: 'Ray Kim',
-    title: 'full stack developer',
+    title: 'Full Stack Developer',
+    location: 'San Jose, CA',
     email: 'kimbm2014@gmail.com',
     socials: {
         linkedin: {

@@ -10,7 +10,8 @@ import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
 import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
-
+import CustomButton from "../Button/PfButton";
+import GetAppIcon from "@material-ui/icons/GetApp";
 
 const CustomTimelineItem = ({ title, text, link }) => (
     <TimelineItem>
@@ -55,14 +56,18 @@ const Profile = () => {
                 <CustomTimeLine icon={<PersonIcon />}> 
                     <CustomTimelineItem title='Name:' text={resumeData.name}/>
                     <CustomTimelineItem title='Title:' text={resumeData.title}/>
-                    <CustomTimelineItem title='Email:' text={resumeData.email}/>
+                    <CustomTimelineItem title='Location:' text={resumeData.location}/>
+                    {/* <CustomTimelineItem title='Email:' text={resumeData.email}/> */}
 
                     {Object.keys(resumeData.socials).map((key) => (
                         <CustomTimelineItem title={key} text={resumeData.socials[key].text} link={resumeData.socials[key].link}/>
                     ))}
                 </CustomTimeLine>
-                <br/>
-                <button>my button</button>
+                <div className='button_container'>
+                    <CustomButton text={'Download Resume'} icon={<GetAppIcon/>}/>
+
+
+                </div>
 
             </div>
 

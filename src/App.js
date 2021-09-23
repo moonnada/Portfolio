@@ -19,16 +19,16 @@ function App() {
         <Grid item xs={12}lg={3} md={4} sm={12} className={`leftBar`}>
           <Profile />
         </Grid>
-        <Grid item xs style={{backgroundColor: 'red'}} >
-          <Header />
-
+        <Grid item xs >
+          
           <Router>
+            <Header />
             <Switch>
               <Route path='/portfolio'>
                 <Portfolio />
               </Route>
 
-              <Route path='/resume'>
+              <Route path='/'>
                 <Resume />
               </Route>
             </Switch>

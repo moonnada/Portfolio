@@ -23,15 +23,20 @@ function App() {
           
           <Router>
             <Header />
-            <Switch>
-              <Route path='/portfolio'>
-                <Portfolio />
-              </Route>
+            <div className='main-content'>
+              <Switch>
+                <Route path='/portfolio'>
+                  <Portfolio />
+                </Route>
 
-              <Route path='/'>
-                <Resume />
-              </Route>
-            </Switch>
+                <Route path='/'>
+                  <Resume />
+                </Route>
+              </Switch>
+
+            </div>
+
+
           </Router>
           
           <Footer />

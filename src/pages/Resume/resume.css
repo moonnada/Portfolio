@@ -4,3 +4,41 @@
     line-height: 22px !important;
     white-space: pre-line !important;
 }
+
+.workTitle{
+    
+}
+.timeline_lists {
+    padding-left: 14px;
+}
+
+
+.timeline_company{
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+.resume_timeline .timeline_content .timeline_title {
+    font-size: 17px !important;
+    font-style: italic;
+    font-weight: 500 !important;
+}
+
+.resume_timeline .timeline_content .timeline_date {
+    color: darkslategray;
+    font-size: 15px;
+}
+
+.resume_timeline .timeline_content .timeline_desc {
+    color: gray;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.timeline_gradDate{
+    font-size: 16px !important;
+    
+}
+.timeline_major {
+    font-size: 16px !important;
+    font-style: italic;
+}

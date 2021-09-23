@@ -9,6 +9,7 @@ export default {
     title: 'Full Stack Developer',
     location: 'San Jose, CA',
     email: 'kimbm2014@gmail.com',
+    address:'689 S Berendo st Los Angeles, CA',
     socials: {
         linkedin: {
             link: 'https://www.linkedin.com/in/ray-kim0727/',

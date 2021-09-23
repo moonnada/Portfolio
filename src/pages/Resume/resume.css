@@ -42,3 +42,33 @@
     font-size: 16px !important;
     font-style: italic;
 }
+
+.skill{
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 28px 0px rgba(4,6,4,0.08) !important;
+    min-height: 186px;
+    height: 100%;
+}
+
+.skill .skill_title{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 35px !important;
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.skill .skill_desc{
+    display: flex;
+    align-items: center;
+    color: #989898 !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+}
+
+.skill .skill_desc .timeline_dot {
+    border-color: var(--main-color) !important;
+    padding: 2px !important;
+    margin-right: 5px !important;
+}

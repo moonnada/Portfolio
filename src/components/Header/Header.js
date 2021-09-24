@@ -39,11 +39,11 @@ const Header = (props) => {
                         Portfolio
                     </Nav.Link>
 
-                    {/* Resume */}
+                    {/* contract */}
                     <Nav.Link 
                         as={NavLink} 
-                        to="/" 
-                        className={pathName == '/' ? 'header_link_active' : 'header_link'}>
+                        to="/contract" 
+                        className={pathName == '/contract' ? 'header_link_active' : 'header_link'}>
                         Contact
                     </Nav.Link>
 

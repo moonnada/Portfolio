@@ -2,11 +2,25 @@ import React from 'react'
 import { Grid, Typography,TextField } from '@material-ui/core'
 import CustomButton from "../../components/Button/PfButton"
 import resumeData from '../../utils/resumeData'
+import emailjs from "emailjs-com"
 import "./contact.css"
 
 export default function Contact() {
+
+    function sendEmail(e) {
+        e.preventDefault()// Prevents default refresh by the browser
+        emailjs.sendForm('gmail', 'template_x75v4vg', e.target, 'user_UFb7cvDUzJzmsuhqGsTjJ')
+            .then(result => {
+                alert('Message Sent, I\'ll get back to you shortly', result.text);
+                },
+                error => {
+                    alert( 'An error occured, Plese try again',error.text)
+                })
+                e.target.reset();
+    }
+
     return (
-    <> 
+    <form onSubmit={sendEmail}> 
           {/* Contact */}
           <Grid container spacing={6} className="section pt_45 pb_45">
           {/*contack form  */}
@@ -82,6 +96,6 @@ export default function Contact() {
 
           </Grid>
       </Grid>
-</>
+</form>
     )
 }

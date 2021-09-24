@@ -1,7 +1,7 @@
 import React from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { WebOutlined } from '@material-ui/icons';
+import { Language, WebOutlined, YouTube } from '@material-ui/icons';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -109,6 +109,69 @@ export default {
                 "MATLAB"
             ]
         }
+    ],
+
+    projects: [
+        {
+            tag: 'React',
+            image: 'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+            title: 'project1',
+            caption: 'A short descroption',
+            desc: 'this is my first project. please fill it in',
+            links:[
+                {link:'https://www.google.com', icon: <YouTube/>},
+                {link:'https://www.google.com', icon: <GitHubIcon/>},
+                {link:'https://www.google.com', icon: <Language/>}
+            ]
+        },
+        {
+            tag: 'React',
+            image: 'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+            title: 'project2',
+            caption: 'A short descroption',
+            desc: 'this is my first project. please fill it in',
+            links:[
+                {link:'https://www.google.com', icon: <YouTube/>},
+                {link:'https://www.google.com', icon: <GitHubIcon/>},
+                {link:'https://www.google.com', icon: <Language/>}
+            ]
+        },
+        {
+            tag: 'React',
+            image: 'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+            title: 'project3',
+            caption: 'A short descroption',
+            desc: 'this is my first project. please fill it in',
+            links:[
+                {link:'https://www.google.com', icon: <YouTube/>},
+                {link:'https://www.google.com', icon: <GitHubIcon/>},
+                {link:'https://www.google.com', icon: <Language/>}
+            ]
+        },
+        {
+            tag: 'Java',
+            image: 'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+            title: 'JAVA project1',
+            caption: 'A short descroption',
+            desc: 'this is my first project. please fill it in',
+            links:[
+                {link:'https://www.google.com', icon: <YouTube/>},
+                {link:'https://www.google.com', icon: <GitHubIcon/>},
+                {link:'https://www.google.com', icon: <Language/>}
+            ]
+        },
+        {
+            tag: 'iOS',
+            image: 'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+            title: 'project1',
+            caption: 'A short descroption',
+            desc: 'this is my first project. please fill it in',
+            links:[
+                {link:'https://www.google.com', icon: <YouTube/>},
+                {link:'https://www.google.com', icon: <GitHubIcon/>},
+                {link:'https://www.google.com', icon: <Language/>}
+            ]
+        },
     ]
 
 

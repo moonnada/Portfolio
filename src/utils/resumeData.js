@@ -114,7 +114,10 @@ export default {
     projects: [
         {
             tag: 'React',
-            image: 'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+            images: [
+                'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+                'https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg',
+            ],
             title: 'project1',
             caption: 'A short descroption',
             desc: 'this is my first project. please fill it in',
@@ -126,7 +129,12 @@ export default {
         },
         {
             tag: 'React',
-            image: 'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+            images: [
+                'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+                'https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg',
+                'https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg',
+                'https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg',
+            ],
             title: 'project2',
             caption: 'A short descroption',
             desc: 'this is my first project. please fill it in',
@@ -138,7 +146,9 @@ export default {
         },
         {
             tag: 'React',
-            image: 'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+            images: [
+                'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+            ],
             title: 'project3',
             caption: 'A short descroption',
             desc: 'this is my first project. please fill it in',
@@ -150,7 +160,9 @@ export default {
         },
         {
             tag: 'Java',
-            image: 'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+            images: [ 
+                'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+            ],
             title: 'JAVA project1',
             caption: 'A short descroption',
             desc: 'this is my first project. please fill it in',
@@ -162,7 +174,9 @@ export default {
         },
         {
             tag: 'iOS',
-            image: 'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+            images: [
+                'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+            ],
             title: 'project1',
             caption: 'A short descroption',
             desc: 'this is my first project. please fill it in',

@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import "./portfolio.css"
 import {Grid, Tabs, Tab, Card, CardActionArea, CardMedia, CardContent, Typography, Grow, Dialog, DialogTitle, DialogContent, DialogActions} from "@material-ui/core"
 import resumeData from '../../utils/resumeData';
+import ImageGallery from '../../components/imageGallery/ImageGallery';
 
 const Portfolio = () => {
 
@@ -44,7 +45,7 @@ const Portfolio = () => {
                         <Grow in timeout={1000}>
                             <Card className="customCard" onClick={()=> setProjectDialog(project)}>
                                 <CardActionArea>
-                                    <CardMedia className="customCard_image" image={project.image} title={project.title}/>
+                                    <CardMedia className="customCard_image" image={project.images[0]} title={project.title}/>
                                     <CardContent> 
                                         <Typography variant="body2" className="customCard_title">{project.title}</Typography>
                                         <Typography variant="body2" className="customCard_caption">{project.caption}</Typography>
@@ -63,10 +64,14 @@ const Portfolio = () => {
             </Grid>
 
 
-            <Dialog open={projectDialog} onClose={() => setProjectDialog(false)} className="projectDialog" fullWidth>
+            <Dialog open={projectDialog} onClose={() => setProjectDialog(false)} className="projectDialog" maxWidth={"lg"} fullWidth>
             <DialogTitle onClose={() => setProjectDialog(false)}>{projectDialog.title}</DialogTitle>
-            <img src={projectDialog.image} alt="" className="projectDialog_image"/>
-            <DialogContent>
+            <DialogContent style={{height: "80vh"}}>
+                {
+                    projectDialog.images && (
+                        <ImageGallery images={projectDialog.images}/>
+                    )
+                }
                 <Typography className="projectDialog_desc">{projectDialog.desc}</Typography>
                 
             </DialogContent>

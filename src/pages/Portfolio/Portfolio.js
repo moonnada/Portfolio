@@ -25,9 +25,9 @@ const Portfolio = () => {
                 indicatorColor='white' 
                 className="customTabs" 
                 onChange={(event, newValue) => setTabValue(newValue)}>
-                    <Tab label='All' value='All' className={tabValue == 'All' ? 'customTabs_item active' : 'customTabs_item'} />
+                    <Tab label='All' value='All' className={tabValue === 'All' ? 'customTabs_item active' : 'customTabs_item'} />
                     {[...new Set(resumeData.projects.map(item => item.tag))].map(tag => (
-                        <Tab label={tag} value={tag} className={tabValue == tag ? 'customTabs_item active' : 'customTabs_item'}/>
+                        <Tab label={tag} value={tag} className={tabValue === tag ? 'customTabs_item active' : 'customTabs_item'}/>
                     ))}
                 </Tabs>
             </Grid>
@@ -37,7 +37,7 @@ const Portfolio = () => {
                 <Grid container spacing={2}>
                     {resumeData.projects.map(project => (
                         <>
-                        {tabValue == project.tag || tabValue == 'All' ? (
+                        {tabValue === project.tag || tabValue === 'All' ? (
                         <Grid item xs={12} sm={6} md={4} lg={4}>
 
                         

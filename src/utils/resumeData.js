@@ -22,7 +22,7 @@ export default {
             icon: <GitHubIcon />
         }
     },
-     about: "I am currently looking for an internship position for summer 2022. I have worked as a Software Engineer Trainee at IBM Accelerate Software Track and had an internship at StemAway. My experiences have given me experiences in full-stack development with web frameworks such as ReactJS for front-end, and MongoDB and Node.js for back-end. I love to learn new stuff and apply the skills, especially in my field!",
+     about: "Hi, My name is Ray and I am currently looking for an internship position for summer 2022.\n I have worked as a Software Engineer Trainee at IBM Accelerate Software Track and had an internship at StemAway. My experiences have given me experiences in full-stack development with ReactJS for front-end, and MongoDB and Node.js for back-end. I love to learn new stuff and apply the skills, especially in my field!",
 
      experiences: [
          {

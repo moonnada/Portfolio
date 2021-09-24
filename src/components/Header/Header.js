@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Nav, Navbar } from 'react-bootstrap';
-import {Link, NavLink, withRouter} from "react-router-dom"
+import { NavLink, withRouter} from "react-router-dom"
 import { HomeRounded, Telegram } from '@material-ui/icons';
 import resumeData from '../../utils/resumeData';
 import CustomButton from "../Button/PfButton";
@@ -12,6 +12,7 @@ const Header = (props) => {
 
     return (
         <Navbar expand="lg" sticky="top" className="header">
+
             {/* Home Link */}
             <Nav.Link as={NavLink} to='/' className="header_navlink">
                 <Navbar.Brand className='header_home'>
@@ -23,11 +24,12 @@ const Header = (props) => {
 
             <Navbar.Collapse>
                 <Nav className="header_left">
+
                     {/* Resume */}
                     <Nav.Link 
                         as={NavLink} 
                         to="/" 
-                        className={pathName == '/' ? 'header_link_active' : 'header_link'}>
+                        className={pathName === '/' ? 'header_link_active' : 'header_link'}>
                         Resume
                     </Nav.Link>
 
@@ -35,15 +37,15 @@ const Header = (props) => {
                     <Nav.Link 
                         as={NavLink} 
                         to="/portfolio" 
-                        className={pathName == '/portfolio' ? 'header_link_active' : 'header_link'}>
+                        className={pathName === '/portfolio' ? 'header_link_active' : 'header_link'}>
                         Portfolio
                     </Nav.Link>
 
-                    {/* Resume */}
+                    {/* contact */}
                     <Nav.Link 
                         as={NavLink} 
-                        to="/" 
-                        className={pathName == '/' ? 'header_link_active' : 'header_link'}>
+                        to="/contact" 
+                        className={pathName === '/contact' ? 'header_link_active' : 'header_link'}>
                         Contact
                     </Nav.Link>
 

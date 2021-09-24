@@ -10,6 +10,10 @@ import "./header.css"
 const Header = (props) => {
     const pathName = props?.location?.pathname;
 
+    const sendEmail = () => {
+        console.log("email!!")
+    }
+
     return (
         <Navbar expand="lg" sticky="top" className="header">
             {/* Home Link */}
@@ -39,11 +43,11 @@ const Header = (props) => {
                         Portfolio
                     </Nav.Link>
 
-                    {/* Resume */}
+                    {/* contact */}
                     <Nav.Link 
                         as={NavLink} 
-                        to="/" 
-                        className={pathName == '/' ? 'header_link_active' : 'header_link'}>
+                        to="/contact" 
+                        className={pathName == '/contact' ? 'header_link_active' : 'header_link'}>
                         Contact
                     </Nav.Link>
 
@@ -53,7 +57,7 @@ const Header = (props) => {
                     {Object.keys(resumeData.socials).map((key) => (
                         <a href={resumeData.socials[key].link} target="_blank">{resumeData.socials[key].icon}</a>
                     ))}
-                    <CustomButton text={"Hire Me"} icon={<Telegram />} />
+                    <CustomButton text={"Hire Me"} icon={<Telegram />} func={sendEmail}/>
                 </div>
             </Navbar.Collapse>
 

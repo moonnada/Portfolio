@@ -1,14 +1,8 @@
 import React from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-<<<<<<< HEAD
-import { Facebook } from '@material-ui/icons';
-import { Language, WebOutlined, YouTube } from '@material-ui/icons';
-import InstagramIcon from '@mui/icons-material/Instagram';
-=======
 import { Language, WebOutlined, Facebook, Instagram } from '@material-ui/icons';
 
->>>>>>> divided_contract
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -18,20 +12,6 @@ export default {
     email: 'kimbm2014@gmail.com',
     address:'689 S Berendo st Los Angeles, CA',
     socials: {
-<<<<<<< HEAD
-        instagram : {
-            link: 'https://www.instagram.com/ray_mooon.kim/',
-            text: 'Instagram',
-            icon: <InstagramIcon />
-        },
-        facebook : {
-            link: 'https://www.facebook.com/profile.php?id=100002035722914',
-            text: 'Facebook',
-            icon: <Facebook />
-        },
-        
-
-=======
         instagram: {
             link:'https://www.instagram.com/ray_mooon.kim/',
             icon: <Instagram />
@@ -40,7 +20,6 @@ export default {
             link:'https://www.facebook.com/profile.php?id=100002035722914',
             icon: <Facebook />
         },
->>>>>>> divided_contract
         linkedin: {
             link: 'https://www.linkedin.com/in/ray-kim0727/',
             text: 'Linkedin',
@@ -155,10 +134,6 @@ export default {
             caption: 'A short descroption',
             desc: 'this is my first project. please fill it in',
             links:[
-<<<<<<< HEAD
-                
-=======
->>>>>>> divided_contract
                 {link:'https://www.google.com', icon: <GitHubIcon/>},
                 {link:'https://www.google.com', icon: <Language/>}
             ]
@@ -172,10 +147,6 @@ export default {
             caption: 'A short descroption',
             desc: 'this is my first project. please fill it in',
             links:[
-<<<<<<< HEAD
-               
-=======
->>>>>>> divided_contract
                 {link:'https://www.google.com', icon: <GitHubIcon/>},
                 {link:'https://www.google.com', icon: <Language/>}
             ]
@@ -189,10 +160,6 @@ export default {
             caption: 'A short descroption',
             desc: 'this is my first project. please fill it in',
             links:[
-<<<<<<< HEAD
-                
-=======
->>>>>>> divided_contract
                 {link:'https://www.google.com', icon: <GitHubIcon/>},
                 {link:'https://www.google.com', icon: <Language/>}
             ]
@@ -206,10 +173,6 @@ export default {
             caption: 'A short descroption',
             desc: 'this is my first project. please fill it in',
             links:[
-<<<<<<< HEAD
-                
-=======
->>>>>>> divided_contract
                 {link:'https://www.google.com', icon: <GitHubIcon/>},
                 {link:'https://www.google.com', icon: <Language/>}
             ]

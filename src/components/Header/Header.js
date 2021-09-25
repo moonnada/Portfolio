@@ -10,16 +10,9 @@ import "./header.css"
 const Header = (props) => {
     const pathName = props?.location?.pathname;
 
-<<<<<<< HEAD
-    const sendEmail = () => {
-        console.log("email!!")
-    }
-
-=======
     const sendEmail = () =>{
         console.log("email")
     }
->>>>>>> divided_contract
     return (
         <Navbar expand="lg" sticky="top" className="header">
             {/* Home Link */}
@@ -49,19 +42,11 @@ const Header = (props) => {
                         Portfolio
                     </Nav.Link>
 
-<<<<<<< HEAD
-                    {/* contact */}
-                    <Nav.Link 
-                        as={NavLink} 
-                        to="/contact" 
-                        className={pathName == '/contact' ? 'header_link_active' : 'header_link'}>
-=======
                     {/* contract */}
                     <Nav.Link 
                         as={NavLink} 
                         to="/contract" 
                         className={pathName == '/contract' ? 'header_link_active' : 'header_link'}>
->>>>>>> divided_contract
                         Contact
                     </Nav.Link>
 

@@ -4,7 +4,6 @@ import './Profile.css'
 import CustomTimeLine from '../Timeline/Timeline'
 import resumeData from '../../utils/resumeData'
 import PersonIcon from '@mui/icons-material/Person';
-import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
 import TimelineConnector from '@material-ui/lab/TimelineConnector';
@@ -12,6 +11,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import CustomButton from "../Button/PfButton";
 import GetAppIcon from "@material-ui/icons/GetApp";
+import myPdf from "../../asserts/images/Resume.pdf";
 
 const CustomTimelineItem = ({ title, text, link }) => (
 
@@ -67,7 +67,9 @@ const Profile = () => {
                     <CustomTimelineItem title='Location:' text={resumeData.location}/>
                 </CustomTimeLine>
                 <div className='button_container'>
-                    <CustomButton func={sendResume} text={'Download Resume'} icon={<GetAppIcon/>}/>
+                    <a href={myPdf} download="Resume.pdf" style={{textDecoration : "none"}}> 
+                        <CustomButton  href={myPdf} download="Resume.pdf" func={sendResume} text={'Download Resume'} icon={<GetAppIcon/>}/>
+                     </a>
 
 
                 </div>

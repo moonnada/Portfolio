@@ -14,6 +14,9 @@ import CustomButton from "../Button/PfButton";
 import GetAppIcon from "@material-ui/icons/GetApp";
 
 const CustomTimelineItem = ({ title, text, link }) => (
+
+    
+
     <TimelineItem>
         <TimelineSeparator className={'separator_padding'}>
           <TimelineDot variant={'outlined'} className={'timeline_dot'}/>
@@ -40,6 +43,11 @@ const CustomTimelineItem = ({ title, text, link }) => (
 );
 
 const Profile = () => {
+
+    const sendResume = () => {
+        console.log("resume");
+    }
+
     return (
         <div className='profile container_shadow'>
             <div className='profile_name'>
@@ -57,14 +65,9 @@ const Profile = () => {
                     <CustomTimelineItem title='Name:' text={resumeData.name}/>
                     <CustomTimelineItem title='Title:' text={resumeData.title}/>
                     <CustomTimelineItem title='Location:' text={resumeData.location}/>
-                    {/* <CustomTimelineItem title='Email:' text={resumeData.email}/> */}
-
-                    {Object.keys(resumeData.socials).map((key) => (
-                        <CustomTimelineItem title={key} text={resumeData.socials[key].text} link={resumeData.socials[key].link}/>
-                    ))}
                 </CustomTimeLine>
                 <div className='button_container'>
-                    <CustomButton text={'Download Resume'} icon={<GetAppIcon/>}/>
+                    <CustomButton func={sendResume} text={'Download Resume'} icon={<GetAppIcon/>}/>
 
 
                 </div>

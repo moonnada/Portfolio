@@ -1,7 +1,8 @@
 import React from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { Language, WebOutlined, YouTube } from '@material-ui/icons';
+import { Language, WebOutlined, Facebook, Instagram } from '@material-ui/icons';
+
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -11,6 +12,14 @@ export default {
     email: 'kimbm2014@gmail.com',
     address:'689 S Berendo st Los Angeles, CA',
     socials: {
+        instagram: {
+            link:'https://www.instagram.com/ray_mooon.kim/',
+            icon: <Instagram />
+        },
+        facebook: {
+            link:'https://www.facebook.com/profile.php?id=100002035722914',
+            icon: <Facebook />
+        },
         linkedin: {
             link: 'https://www.linkedin.com/in/ray-kim0727/',
             text: 'Linkedin',
@@ -59,21 +68,7 @@ export default {
     ],
 
 
-    services: [
-        {
-            title: "Web Development",
-            icon: <WebOutlined />
-        },
-        {
-            title: "Web Dev",
-            icon: <WebOutlined />
-        },
-        {
-            title: "Web Dev",
-            icon: <WebOutlined />
-        }
-        
-    ],
+
 
     skills: [
         {
@@ -122,7 +117,7 @@ export default {
             caption: 'A short descroption',
             desc: 'this is my first project. please fill it in',
             links:[
-                {link:'https://www.google.com', icon: <YouTube/>},
+                
                 {link:'https://www.google.com', icon: <GitHubIcon/>},
                 {link:'https://www.google.com', icon: <Language/>}
             ]
@@ -139,7 +134,6 @@ export default {
             caption: 'A short descroption',
             desc: 'this is my first project. please fill it in',
             links:[
-                {link:'https://www.google.com', icon: <YouTube/>},
                 {link:'https://www.google.com', icon: <GitHubIcon/>},
                 {link:'https://www.google.com', icon: <Language/>}
             ]
@@ -153,7 +147,6 @@ export default {
             caption: 'A short descroption',
             desc: 'this is my first project. please fill it in',
             links:[
-                {link:'https://www.google.com', icon: <YouTube/>},
                 {link:'https://www.google.com', icon: <GitHubIcon/>},
                 {link:'https://www.google.com', icon: <Language/>}
             ]
@@ -167,7 +160,6 @@ export default {
             caption: 'A short descroption',
             desc: 'this is my first project. please fill it in',
             links:[
-                {link:'https://www.google.com', icon: <YouTube/>},
                 {link:'https://www.google.com', icon: <GitHubIcon/>},
                 {link:'https://www.google.com', icon: <Language/>}
             ]
@@ -181,7 +173,6 @@ export default {
             caption: 'A short descroption',
             desc: 'this is my first project. please fill it in',
             links:[
-                {link:'https://www.google.com', icon: <YouTube/>},
                 {link:'https://www.google.com', icon: <GitHubIcon/>},
                 {link:'https://www.google.com', icon: <Language/>}
             ]

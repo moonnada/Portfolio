@@ -6,7 +6,11 @@ import Header from './components/Header/Header'
 import Portfolio from './pages/Portfolio/Portfolio'
 import Resume from './pages/Resume/Resume'
 import Footer from './components/Footer/Footer'
+<<<<<<< HEAD
 import Contact from './components/Contact/Contact';
+=======
+import Contract from './components/Contract/Contract';
+>>>>>>> divided_contract
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -26,8 +30,14 @@ function App() {
             <Header />
             <div className='main-content'>
               <Switch>
+<<<<<<< HEAD
                 <Route path='/contact'>
                   <Contact />
+=======
+
+                <Route path='/contract'>
+                  <Contract />
+>>>>>>> divided_contract
                 </Route>
 
                 <Route path='/portfolio'>

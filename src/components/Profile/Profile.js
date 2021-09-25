@@ -14,6 +14,9 @@ import CustomButton from "../Button/PfButton";
 import GetAppIcon from "@material-ui/icons/GetApp";
 
 const CustomTimelineItem = ({ title, text, link }) => (
+
+    
+
     <TimelineItem>
         <TimelineSeparator className={'separator_padding'}>
           <TimelineDot variant={'outlined'} className={'timeline_dot'}/>
@@ -41,9 +44,16 @@ const CustomTimelineItem = ({ title, text, link }) => (
 
 const Profile = () => {
 
+<<<<<<< HEAD
     const downloadResume = () => {
         console.log("resume!!")
     }
+=======
+    const sendResume = () => {
+        console.log("resume");
+    }
+
+>>>>>>> divided_contract
     return (
         <div className='profile container_shadow'>
             <div className='profile_name'>
@@ -61,6 +71,7 @@ const Profile = () => {
                     <CustomTimelineItem title='Name:' text={resumeData.name}/>
                     <CustomTimelineItem title='Title:' text={resumeData.title}/>
                     <CustomTimelineItem title='Location:' text={resumeData.location}/>
+<<<<<<< HEAD
                   
 
                     {/* {Object.keys(resumeData.socials).map((key) => (
@@ -69,6 +80,11 @@ const Profile = () => {
                 </CustomTimeLine>
                 <div className='button_container'>
                     <CustomButton text={'Download Resume'} icon={<GetAppIcon/>} func={downloadResume} />
+=======
+                </CustomTimeLine>
+                <div className='button_container'>
+                    <CustomButton func={sendResume} text={'Download Resume'} icon={<GetAppIcon/>}/>
+>>>>>>> divided_contract
 
 
                 </div>

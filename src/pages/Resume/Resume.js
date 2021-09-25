@@ -124,7 +124,11 @@ const Resume = () => {
             </Grid>
 
 
+<<<<<<< HEAD
           
+=======
+
+>>>>>>> divided_contract
         </>
     )
 }

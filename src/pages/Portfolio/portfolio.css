@@ -20,6 +20,7 @@
     border-radius: 5px;
     overflow: hidden;
     outline-width: 0px !important;
+    margin-left: 30px;
 }
 
 .customCard .customCard_image {
@@ -33,6 +34,7 @@
 .customCard .customCard_caption {
     color: gray !important;
     font-weight: 400;
+    margin-top: 10px;
 }
 
 
@@ -45,11 +47,11 @@
     object-position: center center;
 }
 .projectDialog .projectDialog_description{
-    margin-top: 10px !important;
+    margin-top: 30px !important;
 }
 .projectDialog .projectDialog_actions{
     justify-content: center !important;
-    margin-bottom: 10px;
+   
 }
 .projectDialog .projectDialog_icon{
     color: darkslategray;
@@ -63,4 +65,9 @@
 
 .projectDialog .projectDialog_icon > .MuiSvgIcon-root {
     font-size: 30px !important;
+}
+
+
+.projectDialog_desc {
+    margin-bottom: 20px;
 }

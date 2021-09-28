@@ -7,10 +7,10 @@ import { Language, WebOutlined, Facebook, Instagram } from '@material-ui/icons';
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
     name: 'Ray Kim',
-    title: 'Full Stack Developer',
-    location: 'San Jose, CA',
+    title: 'SWE Junior Student',
+    location: 'San Jose CA',
     email: 'kimbm2014@gmail.com',
-    address:'689 S Berendo st Los Angeles, CA',
+    address:'689 S Berendo st Los Angeles CA',
     socials: {
         instagram: {
             link:'https://www.instagram.com/ray_mooon.kim/',
@@ -31,7 +31,7 @@ export default {
             icon: <GitHubIcon />
         }
     },
-     about: "Hi, my name if Ray and I am currently looking for an internship position for summer 2022. I have worked as a Software Engineer Trainee at IBM Accelerate Software Track and had an internship at StemAway. My experiences have given me experiences in full-stack development with web frameworks such as ReactJS for front-end, and MongoDB and Node.js for back-end. I love to learn new stuff and apply the skills, especially in my field!",
+     about: "Hi, my name is Ray and I am currently looking for an internship position for summer 2022. I have worked as a Software Engineer Trainee at IBM Accelerate Software Track and had an internship at StemAway. My experiences have given me experiences in full-stack development with web frameworks such as ReactJS for front-end, and MongoDB and Node.js for back-end. I love to learn new stuff and apply the skills, especially in my field!",
 
      experiences: [
          {
@@ -108,73 +108,108 @@ export default {
 
     projects: [
         {
-            tag: 'React',
+            tag: 'Web',
             images: [
-                'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
-                'https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg',
+                'https://i.imgur.com/QtvZyoN.png',
+                'https://i.imgur.com/tM3cWWu.jpg',
+                'https://i.imgur.com/305gsKR.png',
+                'https://i.imgur.com/kOt26Ir.png',
+                'https://i.imgur.com/04zsyJu.png'
+
             ],
-            title: 'project1',
-            caption: 'A short descroption',
-            desc: 'this is my first project. please fill it in',
+            title: 'Blog',
+            caption: 'MERN Full-Stack Blog Website',
+            desc: 'Users can register, login and update their account in this website, and then they can write or edit their personal blog. Moreover users can see different users` posts as well' ,
             links:[
                 
-                {link:'https://www.google.com', icon: <GitHubIcon/>},
-                {link:'https://www.google.com', icon: <Language/>}
+                {link:'https://github.com/moonnada/Blog-app/blob/master/README.md', icon: <GitHubIcon/>},
+                {link:'https://blogooo.herokuapp.com/', icon: <Language/>}
             ]
         },
         {
-            tag: 'React',
+            tag: 'Web',
             images: [
-                'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
-                'https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg',
-                'https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg',
-                'https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg',
+                'https://camo.githubusercontent.com/aab00add3598f5acce26f781012f06cfbe4b489f1dbf9cc914f1835736f97897/68747470733a2f2f692e6962622e636f2f474a777979396d2f4276392d4a73332d514c4f4c592d48442e6a7067',
+               
             ],
-            title: 'project2',
-            caption: 'A short descroption',
-            desc: 'this is my first project. please fill it in',
+            title: 'Fin Chat',
+            caption: 'Full Realtime Firebase Chat Application',
+            desc: 'With social authentication including Google and Facebook using Firebase, online statuses, great design, and functionality, image support, sound notifications, the ability to create multiple rooms.',
             links:[
-                {link:'https://www.google.com', icon: <GitHubIcon/>},
-                {link:'https://www.google.com', icon: <Language/>}
+                {link:'https://github.com/moonnada/Fin-Chat', icon: <GitHubIcon/>},
+                {link:'https://finchatgo.netlify.app', icon: <Language/>}
             ]
         },
         {
-            tag: 'React',
+            tag: 'Web',
             images: [
-                'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+                'https://i.imgur.com/1V02mbc.png',
+                'https://i.imgur.com/ojN28P8.png',
+                'https://i.imgur.com/R10x04m.png',
+                'https://i.imgur.com/BjwNsqJ.png',
+                'https://i.imgur.com/gfOLq1q.png',
+                'https://i.imgur.com/TrPI1ia.png',
+                'https://i.imgur.com/QlilYqc.png',
+                'https://i.imgur.com/RcIXcFX.png',
+                'https://i.imgur.com/Wo3TwpF.png',
+
+
             ],
-            title: 'project3',
-            caption: 'A short descroption',
-            desc: 'this is my first project. please fill it in',
-            links:[
-                {link:'https://www.google.com', icon: <GitHubIcon/>},
-                {link:'https://www.google.com', icon: <Language/>}
-            ]
+            title: 'MindEraser - Web',
+            caption: 'Mental Health Platform',
+            desc: 'People can post stresses that they want to forget, and stresses would be blurred out little by little and finally they are erased in 3 days.',
+            // links:[
+            //     {link:'', icon: <GitHubIcon/>},
+            //     {link:'', icon: <Language/>}
+            // ]
         },
         {
-            tag: 'Java',
-            images: [ 
-                'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+            tag: 'iOS',
+            images: [
+                'https://i.imgur.com/QH9KhMz.png',
+                'https://i.imgur.com/R1mK5cR.png'
             ],
-            title: 'JAVA project1',
-            caption: 'A short descroption',
-            desc: 'this is my first project. please fill it in',
+            title: 'Flix',
+            caption: 'Movie Trailer Application',
+            desc: 'Flix app to allow users to get more information about a particular movie in a movie details screen. Used Collection View to view movies in a grid view from different endpoints of the MovieDB API.',
             links:[
-                {link:'https://www.google.com', icon: <GitHubIcon/>},
-                {link:'https://www.google.com', icon: <Language/>}
+                {link:'https://github.com/moonnada/Flix', icon: <GitHubIcon/>}
+                
             ]
         },
         {
             tag: 'iOS',
             images: [
-                'https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg',
+                'https://i.imgur.com/sTStX6s.png',
+                'https://i.imgur.com/NNG9ebZ.png',
+                'https://i.imgur.com/b6X25Va.png',
             ],
-            title: 'project1',
-            caption: 'A short descroption',
-            desc: 'this is my first project. please fill it in',
+            title: 'Tweet',
+            caption: 'Basic twitter app to view, compose, favorite, and retweet tweets.',
+            desc: 'Flix app to allow users to get more information about a particular movie in a movie details screen. Used Collection View to view movies in a grid view from different endpoints of the MovieDB API.',
             links:[
-                {link:'https://www.google.com', icon: <GitHubIcon/>},
-                {link:'https://www.google.com', icon: <Language/>}
+                {link:'https://github.com/moonnada/twitter_ios_starter/blob/master/README.md', icon: <GitHubIcon/>}
+                
+            ]
+        },
+        {
+            tag: 'iOS',
+            images: [
+                'https://i.imgur.com/9cmrhZa.png',
+                'https://i.imgur.com/QjVHgwn.png',
+                'https://i.imgur.com/fszhqdh.png',
+                'https://i.imgur.com/HdfpLHm.png',
+                'https://i.imgur.com/15ORQcb.png',
+                'https://i.imgur.com/LysHdEF.png',
+                'https://i.imgur.com/lqGNydw.png',
+                'https://i.imgur.com/CaFWTnc.png'
+
+            ],
+            title: 'MindEraser - iOS',
+            caption: 'Mental Health Platform.',
+            desc: 'People can post stresses that they want to forget, and stresses would be blurred out little by little and finally they are erased in 3 days.',
+            links:[
+                
             ]
         },
     ]

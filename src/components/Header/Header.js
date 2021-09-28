@@ -11,7 +11,7 @@ const Header = (props) => {
     const pathName = props?.location?.pathname;
 
     const sendEmail = () =>{
-        console.log("email")
+        window.location.assign("mailto:kimbm2014@gmail.com");
     }
     return (
         <Navbar expand="lg" sticky="top" className="header">

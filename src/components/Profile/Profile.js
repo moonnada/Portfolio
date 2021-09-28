@@ -44,10 +44,6 @@ const CustomTimelineItem = ({ title, text, link }) => (
 
 const Profile = () => {
 
-    const sendResume = () => {
-        console.log("resume");
-    }
-
     return (
         <div className='profile container_shadow'>
             <div className='profile_name'>
@@ -68,7 +64,7 @@ const Profile = () => {
                 </CustomTimeLine>
                 <div className='button_container'>
                     <a href={myPdf} download="Resume.pdf" style={{textDecoration : "none"}}> 
-                        <CustomButton  href={myPdf} download="Resume.pdf" func={sendResume} text={'Download Resume'} icon={<GetAppIcon/>}/>
+                        <CustomButton text={'Download Resume'} icon={<GetAppIcon/>}/>
                      </a>
 
 

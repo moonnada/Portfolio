@@ -34,11 +34,11 @@ const Portfolio = () => {
         
             {/* projects */}
             <Grid item xs={12}>
-                <Grid container spacing={2}>
+                <Grid container spacing={6}>
                     {resumeData.projects.map(project => (
                         <>
                         {tabValue == project.tag || tabValue == 'All' ? (
-                        <Grid item xs={12} sm={6} md={4} lg={4}>
+                        <Grid item xs={12} sm={6} md={6} lg={6}>
 
                         
                         <Grid item>
@@ -66,12 +66,13 @@ const Portfolio = () => {
 
             <Dialog open={projectDialog} onClose={() => setProjectDialog(false)} className="projectDialog" maxWidth={"lg"} fullWidth>
             <DialogTitle onClose={() => setProjectDialog(false)}>{projectDialog.title}</DialogTitle>
-            <DialogContent style={{height: "80vh"}}>
+            <DialogContent style={{height: "70vh"}}>
                 {
                     projectDialog.images && (
                         <ImageGallery images={projectDialog.images}/>
                     )
                 }
+                <br />
                 <Typography className="projectDialog_desc">{projectDialog.desc}</Typography>
                 
             </DialogContent>

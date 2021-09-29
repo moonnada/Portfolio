@@ -31,7 +31,7 @@ export default {
             icon: <GitHubIcon />
         }
     },
-     about: "Hi, my name is Ray and I am currently looking for an internship position for summer 2022. I have worked as a Software Engineer Trainee at IBM Accelerate Software Track and had an internship at StemAway. My experiences have given me experiences in full-stack development with web frameworks such as ReactJS for front-end, and MongoDB and Node.js for back-end. I love to learn new stuff and apply the skills, especially in my field!",
+     about: "Hi, my name is Ray and I am a junior student majoring in Software Engineering at San Jose State University.\n I am currently looking for a Software Developer Internship for summer 2022. I have worked as a Software Engineer Trainee at IBM Accelerate Software Track and had an internship at StemAway. My experiences have given me experiences in full-stack development with web frameworks such as ReactJS for front-end, and MongoDB and Node.js for back-end. I love to learn new stuff and apply the skills, especially in my field!",
 
      experiences: [
          {
@@ -119,7 +119,7 @@ export default {
             ],
             title: 'Blog',
             caption: 'MERN Full-Stack Blog Website',
-            desc: 'Users can register, login and update their account in this website, and then they can write or edit their personal blog. Moreover users can see different users` posts as well' ,
+            desc: 'Users can register, login and update their account in this website, and then they can write or edit their personal blog. Moreover users can see different users` posts as well.' ,
             links:[
                 
                 {link:'https://github.com/moonnada/Blog-app/blob/master/README.md', icon: <GitHubIcon/>},
@@ -186,7 +186,7 @@ export default {
             ],
             title: 'Tweet',
             caption: 'Basic twitter app to view, compose, favorite, and retweet tweets.',
-            desc: 'Flix app to allow users to get more information about a particular movie in a movie details screen. Used Collection View to view movies in a grid view from different endpoints of the MovieDB API.',
+            desc: 'Tweet allows users to take and post pics. You`ll setup and utilize a custom backend database using Parse to store and retrieve user posts.',
             links:[
                 {link:'https://github.com/moonnada/twitter_ios_starter/blob/master/README.md', icon: <GitHubIcon/>}
                 

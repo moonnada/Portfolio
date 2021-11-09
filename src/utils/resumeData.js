@@ -31,9 +31,17 @@ export default {
             icon: <GitHubIcon />
         }
     },
-     about: "Hi, my name is Ray and I am a junior student majoring in Software Engineering at San Jose State University.\n I am currently looking for a Software Developer Internship for summer 2022. I have worked as a Software Engineer Trainee at IBM Accelerate Software Track and had an internship at StemAway. My experiences have given me experiences in full-stack development with web frameworks such as ReactJS for front-end, and MongoDB and Node.js for back-end. I love to learn new stuff and apply the skills, especially in my field!",
+     about: "Hi, my name is Ray and I am a junior student majoring in Software Engineering at San Jose State University.\n I am currently looking for a Software Developer Internship for summer 2022, and have been working as a Backend Developer Intern at UnderWatch now. My experiences have given me experiences in full-stack development such as ReactJS, AWS, GraphQL, MongoDB and Node.js. I love to learn new stuff and apply the skills, especially in my field!",
 
      experiences: [
+        {
+            title: 'Backend Developer Intern',
+            company:'UnderWatch (IT Consulting Startup)',
+            date: '10.2021 - Present',
+            descs: [
+                'Developed key features such as authentication, user with AWS Cognito, Amplify, and Lambda for the company website.',
+            ] 
+        },
          {
              title: 'Software Developer Trainee',
              company:'IBM Accelerate Software Track',
@@ -92,6 +100,7 @@ export default {
             title: "BACK-END",
             desc: [
                 "Node.js",
+                "GraphQL",
                 "MongoDB",
                 "Express.js"
             ]
@@ -99,6 +108,7 @@ export default {
         {
             title: "TECHNOLOGIES",
             desc: [
+                "AWS",
                 "Firebase",
                 "RESTful API",
                 "MATLAB"

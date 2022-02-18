@@ -11,7 +11,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import CustomButton from "../Button/PfButton";
 import GetAppIcon from "@material-ui/icons/GetApp";
-import myPdf from "../../asserts/images/Resume.pdf";
+import myPdf from "../../asserts/images/resume.pdf";
 
 const CustomTimelineItem = ({ title, text, link }) => (
 

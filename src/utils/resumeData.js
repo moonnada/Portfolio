@@ -35,11 +35,11 @@ export default {
 
      experiences: [
         {
-            title: 'Backend Developer Intern',
-            company:'UnderWatch (IT Consulting Startup)',
+            title: 'Full-Stack Developer Intern',
+            company:'Underwatch (IT Consulting Startup)',
             date: '10.2021 - Present',
             descs: [
-                'Developed key features such as authentication, user with AWS Cognito, Amplify, and Lambda for the company website.',
+                'Enhanced 87% of increased productivity by rebuilding the company website and working closely with UX designers.',
             ] 
         },
          {
@@ -47,7 +47,7 @@ export default {
              company:'IBM Accelerate Software Track',
              date: '06.2021 - 08.2021',
              descs: [
-                 'Led a team of 10 people through biweekly web development labs focusing on full-stack development(react.js for Front-end and Node.js and Express.js for Back-end) and cloud with IBM engineers.', 
+                 'Led a team of 10 Software Engineer Trainees through web development labs with IBM developers, and my team won the top 2 out of the 40+ teams at the end.', 
              ] 
          },
          {
@@ -84,6 +84,7 @@ export default {
             desc: [
                 "Java",
                 "JavaScript",
+                "C",
                 "Swift"
             ]
         }, 
@@ -108,8 +109,8 @@ export default {
         {
             title: "TECHNOLOGIES",
             desc: [
+                "Linux(Ubuntu)",
                 "AWS",
-                "Firebase",
                 "RESTful API",
                 "MATLAB"
             ]

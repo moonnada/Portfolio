@@ -7,10 +7,10 @@ import { Language, WebOutlined, Facebook, Instagram } from '@material-ui/icons';
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
     name: 'Ray Kim',
-    title: 'SWE Junior Student',
+    title: 'SWE Senior Student',
     location: 'San Jose CA',
     email: 'kimbm2014@gmail.com',
-    address:'689 S Berendo st Los Angeles CA',
+    address:'88 E San Carlos st, San Jose, CA 95112',
     socials: {
         instagram: {
             link:'https://www.instagram.com/ray_mooon.kim/',
@@ -31,13 +31,19 @@ export default {
             icon: <GitHubIcon />
         }
     },
-     about: "Hi, my name is Ray and I am a junior student majoring in Software Engineering at San Jose State University.\n I am currently looking for a Software Developer Internship for summer 2022, and have been working as a Backend Developer Intern at UnderWatch now. My experiences have given me experiences in full-stack development such as ReactJS, AWS, GraphQL, MongoDB and Node.js. I love to learn new stuff and apply the skills, especially in my field!",
+     about: "Hi, my name is Ray and I am a senior student majoring in Software Engineering at San Jose State University.\n I have been working as a Software Developer Intern at Genemod now. My experiences have given me experiences in full-stack development such as Typescript, ReactJS, AWS, GraphQL, MongoDB and Node.js. I love to learn new stuff and apply the skills, especially in my field!",
 
      experiences: [
         {
+            title: 'Frontend Developer Intern',
+            company:'Genemod',
+            date: '06.2022 - Present',
+            descs: [] 
+        },
+        {
             title: 'Full-Stack Developer Intern',
-            company:'Underwatch (IT Consulting Startup)',
-            date: '10.2021 - Present',
+            company:'Underwatch',
+            date: '10.2021 - 05.2022',
             descs: [
                 'Enhanced 87% of increased productivity by rebuilding the company website and working closely with UX designers.',
             ] 
@@ -83,8 +89,8 @@ export default {
             title: "LANGUAGES",
             desc: [
                 "Java",
-                "JavaScript",
-                "C",
+                "Javascript",
+                "Typescript",
                 "Swift"
             ]
         }, 

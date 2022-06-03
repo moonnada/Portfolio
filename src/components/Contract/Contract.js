@@ -21,10 +21,7 @@ export default function Contract() {
     }
 
     return (
-        <>
-            
-            
-
+        <div>
             {/* Contact */}
             <Grid container spacing={6} className="section pt_45 pb_45">
 
@@ -118,6 +115,6 @@ export default function Contract() {
                 </Grid>
                 
             </Grid>
-        </>
+        </div>
     )
 }

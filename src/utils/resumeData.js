@@ -31,7 +31,7 @@ export default {
             icon: <GitHubIcon />
         }
     },
-     about: "Hi, my name is Ray and I am a senior student majoring in Software Engineering at San Jose State University.\n I have been working as a Software Developer Intern at Genemod now. My experiences have given me experiences in full-stack development such as Typescript, ReactJS, AWS, GraphQL, MongoDB and Node.js. I love to learn new stuff and apply the skills, especially in my field!",
+     about: "Hi, my name is Ray and I am a senior student majoring in Software Engineering at San Jose State University.\n I have been working as a Frontend Developer Intern at Genemod now. My experiences have given me experiences in full-stack development such as Typescript, ReactJS, AWS, GraphQL, MongoDB and Node.js. I love to learn new stuff and apply the skills, especially in my field!",
 
      experiences: [
         {

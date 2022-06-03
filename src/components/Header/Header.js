@@ -10,9 +10,6 @@ import "./header.css"
 const Header = (props) => {
     const pathName = props?.location?.pathname;
 
-    const sendEmail = () =>{
-        window.location.assign("mailto:kimbm2014@gmail.com");
-    }
     return (
         <Navbar expand="lg" sticky="top" className="header">
             {/* Home Link */}

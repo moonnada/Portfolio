@@ -13,7 +13,7 @@ import { TimelineSeparator } from '@material-ui/lab';
 
 const Resume = () => {
     return (
-        <>
+        <div>
             {/* About me */}
             <Grid container className="section pb_45 pt_45">
                 <Grid item className='section_title mb_20' >
@@ -124,7 +124,7 @@ const Resume = () => {
             </Grid>
 
 
-        </>
+        </div>
     )
 }
 
